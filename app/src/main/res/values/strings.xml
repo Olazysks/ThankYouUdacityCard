@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThankYouCard</string>
+    <string name="message">Dear Udacity Team, \nI have a message for you!</string>
+    <string name="show_message">Show message</string>
+    <string name="message_displayed1">Many thanks for opening my mind and the opportunity to collaborate with you all.</string>
+    <string name="message_displayed2">It was an amazing journey!</string>
+    <string name="user">Aleksandra</string>
+    <string name="next">Next</string>
+</resources>

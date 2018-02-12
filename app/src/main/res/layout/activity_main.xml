@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:fontFamily="@font/kaushan_script"
+        android:gravity="center"
+        android:text="@string/message"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_large" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/show_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_large"
+        android:background="@drawable/username"
+        android:fontFamily="@font/kaushan_script"
+        android:text="@string/show_message"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_small" />
+
+</LinearLayout>
